@@ -117,7 +117,7 @@ pub fn interpret(config: Config) {
             }
 
             '.' => {
-                print!("Output: {}", cells[pointer] as char);
+                print!("{}", cells[pointer] as char);
                 stdout().flush().unwrap();
             }
             

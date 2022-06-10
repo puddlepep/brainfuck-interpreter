@@ -14,7 +14,6 @@ pub struct Token {
 // Start simple: 8-bit cells, 16 of them.
 // TODO (maybe) -- Configurable cell size and count for each script.
 
-// Lexical analysis!!!! Tokenizing!!
 pub fn lex(config: Config) -> Vec<Token> {
 
     let mut tokens: Vec<Token> = Vec::new();
